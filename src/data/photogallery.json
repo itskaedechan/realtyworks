@@ -1,0 +1,37 @@
+[
+  {
+    "id": "estate1",
+    "img": "/photo-gallery/roseworthy.webp",
+    "alt": "roseworthy"
+  },
+  {
+    "id": "estate2",
+    "img": "/photo-gallery/ailanto-14.webp",
+    "alt": "ailanto-roon"
+  },
+  {
+    "id": "estate3",
+    "img": "/photo-gallery/ailanto-45.webp",
+    "alt": "ailanto-outside-view"
+  },
+  {
+    "id": "estate4",
+    "img": "/photo-gallery/ailanto-50.webp",
+    "alt": "ailanto-w-pool"
+  },
+  {
+    "id": "estate5",
+    "img": "/photo-gallery/beacon-54.webp",
+    "alt": "beacon-w-courts-parking"
+  },
+  {
+    "id": "estate6",
+    "img": "/photo-gallery/beacon-53.webp",
+    "alt": "beacon-w-courts"
+  },
+  {
+    "id": "estate7",
+    "img": "/photo-gallery/beacon-41.webp",
+    "alt": "beacon-homes"
+  }
+]

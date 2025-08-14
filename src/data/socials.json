@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fb",
+    "social": "Facebook",
+    "img": "/contacts/facebook.svg",
+    "link": "https://facebook.com/MarciHomes",
+    "hover": "Facebook"
+  },
+  {
+    "id": "ig",
+    "social": "Instagram",
+    "img": "/contacts/ig.svg",
+    "link": "https://www.instagram.com/marciandlauren_nvrealtors/",
+    "hover": "Instagram"
+  },
+  {
+    "id": "linkedin",
+    "social": "Linkedin",
+    "img": "/contacts/linkedin.svg",
+    "link": "https://www.linkedin.com/in/marci-metzger-30642496/",
+    "hover": "Linkedin"
+  },
+  {
+    "id": "yelp",
+    "social": "Yelp",
+    "img": "/contacts/yelp.svg",
+    "link": "https://www.yelp.com/biz/marci-metzger-the-ridge-realty-pahrump",
+    "hover": "Yelp"
+  }
+]
