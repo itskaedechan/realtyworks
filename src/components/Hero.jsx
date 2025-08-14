@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <div
-      className="relative w-full max-h-[500px] h-screen flex items-center justify-center bg-gray-900 text-white"
+      className="relative w-full max-h-[500px] h-screen flex items-center justify-center bg-gray-900 text-white  bg-fixed bg-center bg-cover"
       style={{
         backgroundImage: `url(/assets/bg-hero.webp)`,
         backgroundRepeat: "no-repeat",
