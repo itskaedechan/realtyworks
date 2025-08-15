@@ -8,6 +8,7 @@ import Badges from "./components/Badges";
 import PhotoGallery from "./components/PhotoGallery";
 import Services from "./components/Services";
 import DreamHome from "./components/DreamHome";
+import CallorVisit from "./components/CallorVisit";
 import Footer from "./components/Footer";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Badges />
         <PhotoGallery />
         <Services />
+        <CallorVisit />
         <Footer />
       </div>
     </>
