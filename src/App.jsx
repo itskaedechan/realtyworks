@@ -6,7 +6,8 @@ import About from "./components/About";
 import RealEstateOverview from "./components/RealEstateOverview";
 import Badges from "./components/Badges";
 import PhotoGallery from "./components/PhotoGallery";
-
+import Services from "./components/Services";
+import DreamHome from "./components/DreamHome";
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,8 +18,10 @@ function App() {
         <Hero />
         <About />
         <RealEstateOverview />
+        <DreamHome />
         <Badges />
         <PhotoGallery />
+        <Services />
         <Footer />
       </div>
     </>

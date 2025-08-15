@@ -1,0 +1,41 @@
+[
+  {
+    "id": "service1",
+    "title": "Real Estate Done Right",
+    "desc": "Nervous about your property adventure? Don't be. Our team ensures you get the best experience possible by helping you with:",
+    "items": [
+      "Buying or selling your residence",
+      "Exploring investment properties",
+      "Understanding the current market"
+    ],
+    "button": "Learn More About Our Services",
+    "img": "/services/12792.webp",
+    "alt": "Real Estate Done Right image"
+  },
+  {
+    "id": "service2",
+    "title": "Commercial & Residential",
+    "desc": "Large or small, condo or mansion, we can help you find a place that's right for you. As active members of the community, we're here to help you get the most out of your hard-earned dollars. Our services include:",
+    "items": [
+      "Finding the perfect home or condo",
+      "Fixer-upper and luxury property options",
+      "Navigating the local market"
+    ],
+    "button": "View Our Listings",
+    "img": "/services/43920.webp",
+    "alt:": "Commercial & Residential"
+  },
+  {
+    "id": "service3",
+    "title": "Rely on Expertise",
+    "desc": "Have questions about your finances? Trust our team to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated with options for:",
+    "items": [
+      "Affordability and budget planning",
+      "Credit and loan options",
+      "Expert advice, every step of the way"
+    ],
+    "button": "Contact an Expert",
+    "img": "/services/kayaJdA.webp",
+    "alt": "Rely on Expertise"
+  }
+]

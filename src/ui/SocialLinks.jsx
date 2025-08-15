@@ -7,7 +7,7 @@ export default function SocialLinks({ size = "h-8", gap = "gap-3" }) {
       className="py-6 flex flex-col justify-center items-center space-y-6"
     >
       <div
-        className={`flex justify-center gap-2 sm:gap-3 md:gap-3 ${size} ${gap}`}
+        className={`flex justify-center gap-2 sm:gap-3 md:gap-6 ${size} ${gap}`}
       >
         {socials.map((social) => (
           <a

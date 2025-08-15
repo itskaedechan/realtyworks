@@ -6,8 +6,8 @@ export default function PhotoGallery() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <div className="bg-[#010101] py-10 text-center">
-      <h1 className="font-cinzel text-3xl mt-9 mb-4">PHOTO GALLERY</h1>
+    <div className="bg-[#010101] py-14 text-center">
+      <h1 className="font-cinzel text-4xl mt-9 mb-4">PHOTO GALLERY</h1>
 
       <div className="mx-auto max-w-4xl">
         <Carousel

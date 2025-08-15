@@ -3,7 +3,7 @@ import overview from "../data/overview.json";
 export default function RealEstateOverview() {
   return (
     <div className="flex flex-col text-center py-14 mt-5">
-      <h1 className="text-black text-3xl font-cinzel">GET IT SOLD</h1>
+      <h1 className="text-black text-4xl font-cinzel">GET IT SOLD</h1>
       <div className="space-y-16 p-5 text-dark mx-5 portrait:mx-5 landscape:mx-16 my-5">
         {overview.map((item, index) => (
           <div

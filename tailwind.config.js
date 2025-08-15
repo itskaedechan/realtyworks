@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         cinzel: ['"Cinzel"', "serif"],
+        sanspro: ['"Source Sans Pro"', "serif"],
       },
     },
   },
