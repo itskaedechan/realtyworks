@@ -20,7 +20,7 @@ export default function Header() {
         <img
           src="/logo/header-logo.webp"
           alt="Company Logo"
-          className="w-[400px]"
+          className="w-[250px] md:w-[400px]"
         />
       </div>
 

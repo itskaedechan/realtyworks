@@ -10,6 +10,7 @@ import Services from "./components/Services";
 import DreamHome from "./components/DreamHome";
 import CallorVisit from "./components/CallorVisit";
 import Footer from "./components/Footer";
+import OurLocation from "./components/OurLocation";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <PhotoGallery />
         <Services />
         <CallorVisit />
+        <OurLocation />
         <Footer />
       </div>
     </>
