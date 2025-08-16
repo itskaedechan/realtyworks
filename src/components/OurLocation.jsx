@@ -1,7 +1,7 @@
 export default function OurLocation() {
   return (
     <>
-      <h1 className="font-cinzel text-[#1B1B1B] text-center text-4xl mt-20 mb-10">
+      <h1 className="font-cinzel text-dark text-center text-4xl mt-20 mb-10">
         Our Location
       </h1>
       <div className="aspect-w-16 md:aspect-h-4 aspect-h-10">

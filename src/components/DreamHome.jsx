@@ -44,7 +44,7 @@ export default function DreamHome() {
         </h1>
 
         <div className="bg-[#FAF9F6] h-auto flex flex-col p-10 md:p-12 space-y-3 rounded-lg shadow-md shadow-black/40">
-          <h1 className="font-cinzel text-3xl text-[#1B1B1B] mb-3">
+          <h1 className="font-cinzel text-3xl text-dark mb-3">
             Search Listings
           </h1>
           <div className="md:grid md:grid-cols-3 gap-5 flex flex-col ">

@@ -4,14 +4,12 @@ import FloatingTextArea from "./forms/FloatingTextArea";
 export default function CallorVisit() {
   return (
     <div className="bg-[#FAF9F6] w-full h-auto my-20">
-      <h1 className="font-cinzel text-4xl text-[#1B1B1B] text-center mb-10">
+      <h1 className="font-cinzel text-4xl text-dark text-center mb-10">
         Call or Visit
       </h1>
       <div className="md:grid md:grid-cols-2 flex flex-col gap-12 w-[80%] mx-auto">
         <div className="flex flex-col">
-          <h2 className="text-[#1B1B1B] font-sanspro text-2xl my-5">
-            Send Message
-          </h2>
+          <h2 className="text-dark font-sanspro text-2xl my-5">Send Message</h2>
           <div className="space-y-6">
             <FloatingInput label="Name" name="name" />
             <FloatingInput label="Email*" type="email" name="email" />
@@ -19,7 +17,7 @@ export default function CallorVisit() {
           </div>
 
           <button
-            className="inline-flex bg-[#d3d3d3] text-[#1B1B1B] font-bold font-sanspro 
+            className="inline-flex bg-[#d3d3d3] text-dark font-bold font-sanspro 
              py-5 px-10 rounded-full mt-5 shadow-md transition-all transform 
              duration-300 hover:scale-105 hover:shadow-lg hover:bg-[#282828] hover:text-[#faf9f6] w-fit mx-auto"
           >
@@ -31,7 +29,7 @@ export default function CallorVisit() {
           </p>
         </div>
 
-        <div className="flex flex-col font-sanspro text-[#1B1B1B] gap-8">
+        <div className="flex flex-col font-sanspro text-dark gap-8">
           <button
             className=" bg-[#536872] text-[#faf9f6] font-bold font-sanspro 
              py-4 px-8 rounded-full mt-5 shadow-md transition-all transform 
