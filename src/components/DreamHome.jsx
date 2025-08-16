@@ -48,16 +48,24 @@ export default function DreamHome() {
             Search Listings
           </h1>
           <div className="md:grid md:grid-cols-3 gap-5 flex flex-col ">
-            <FormSelect label="Location" options={locations} />
-            <FormSelect label="Type" options={types} />
-            <FormSelect label="Sort By" options={sortBy} />
+            <FormSelect label="Location" options={locations} name="locations" />
+            <FormSelect label="Type" options={types} name="types" />
+            <FormSelect label="Sort By" options={sortBy} name="sortby" />
           </div>
           <div className="md:grid md:grid-cols-5 md:items-center gap-5 flex flex-col justify-center">
             <div className="flex flex-col  md:grid md:grid-cols-4 md:col-span-4 md:gap-4">
-              <FormSelect label="Bedrooms" options={bedrooms} />
-              <FormSelect label="Baths" options={baths} />
-              <FormInput label="Min Price" placeholder="$ Min" />
-              <FormInput label="Max Price" placeholder="$ Max" />
+              <FormSelect label="Bedrooms" options={bedrooms} name="bedrooms" />
+              <FormSelect label="Baths" options={baths} name="baths" />
+              <FormInput
+                label="Min Price"
+                placeholder="$ Min"
+                name="minprice"
+              />
+              <FormInput
+                label="Max Price"
+                placeholder="$ Max"
+                name="maxprice"
+              />
             </div>
             <button className="bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition transition-transform duration-200 ease-in-out hover:-translate-y-1 hover:scale-105 md:col-span-1 h-auto items-center mt-2">
               SEARCH NOW

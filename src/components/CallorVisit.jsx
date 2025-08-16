@@ -13,9 +13,9 @@ export default function CallorVisit() {
             Send Message
           </h2>
           <div className="space-y-6">
-            <FloatingInput label="Name" />
-            <FloatingInput label="Email*" type="email" />
-            <FloatingTextArea label="Message" />
+            <FloatingInput label="Name" name="name" />
+            <FloatingInput label="Email*" type="email" name="email" />
+            <FloatingTextArea label="Message" name="message" />
           </div>
 
           <button
