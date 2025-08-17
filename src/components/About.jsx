@@ -45,7 +45,7 @@ export default function About() {
               transition={{ duration: 0.5, ease: "easeInOut" }}
               className="mt-4 overflow-hidden"
             >
-              <p>
+              <p className="mb-4 ml-3">
                 Marci was a REALTOR®, then licensed Broker, in Washington State.
                 Now, she is enjoying the sunshine and helping clients in
                 Southern Nevada. Having helped buyers and sellers in many
@@ -53,7 +53,7 @@ export default function About() {
               </p>
 
               <h4 className="mt-4 font-bold">A Note from Marci</h4>
-              <p className="italic mt-2">
+              <p className="italic mt-2 ml-3">
                 "I love that small-town feeling that our community offers.
                 Spectacular golf courses, parks, a pool, and easy access to Las
                 Vegas make Pahrump a great place to call home. Working or
