@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <div className="flex flex-col md:flex-row bg-[#1A1A1A] py-16 justify-center items-center gap-8 relative w-full h-auto">
+    <div
+      id="about-section"
+      className="flex flex-col md:flex-row bg-[#1A1A1A] py-16 justify-center items-center gap-8 relative w-full h-auto"
+    >
       <div className="absolute inset-0 z-0 bg-center bg-no-repeat opacity-15 blur-sm bg-cover bg-[url(/logo/header-logo.webp)]"></div>
       <div className="relative z-10"></div>
 

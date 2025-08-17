@@ -3,7 +3,7 @@ import FloatingTextArea from "./forms/FloatingTextArea";
 
 export default function CallorVisit() {
   return (
-    <div className="bg-[#FAF9F6] w-full h-auto my-20">
+    <div id="callorvisit" className="bg-[#FAF9F6] w-full h-auto my-20">
       <h1 className="font-cinzel text-4xl text-dark text-center mb-10">
         Call or Visit
       </h1>
@@ -47,8 +47,20 @@ export default function CallorVisit() {
             <div className="ml-2 space-y-2">
               <p>THE RIDGE REALTY GROUP</p>
               <p>3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</p>
-              <a href="tel:206-919-6886" className="block text-[#800000]">
-                (206) 919-6886
+              <div className="block flex gap-1">
+                <a href="tel:206-919-6886" className="text-[#800000]">
+                  (206) 919-6886
+                </a>
+                {"/"}
+                <a href="tel:425-941-2560" className="text-[#800000]">
+                  (425) 941-2560
+                </a>
+              </div>
+              <a
+                href="mailto:marcimetzger@gmail.com"
+                className="font-sanspro text-dark block"
+              >
+                marcimetzger@gmail.com
               </a>
             </div>
           </div>

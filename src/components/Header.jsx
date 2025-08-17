@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,21 +38,34 @@ export default function Header() {
         </button>
 
         <div className="p-16 flex flex-col space-y-6 text-[#826C6C] font-sanspro text-sm mt-8">
-          <a href="#" className="font-bold hover:text-gray-700">
+          <Link
+            to="home"
+            smooth={true}
+            className="font-bold hover:text-gray-700 transition-transform duration-300 hover:scale-110"
+          >
             HOME
-          </a>
-          <a href="#" className="hover:text-gray-700">
+          </Link>
+          <Link
+            to="listings"
+            smooth={true}
+            className="hover:text-gray-700 transition-transform duration-300 hover:scale-110"
+          >
             LISTINGS
-          </a>
-          <a href="#" className="hover:text-gray-700">
+          </Link>
+          <Link
+            to="about-section"
+            smooth={true}
+            className="hover:text-gray-700 transition-transform duration-300 hover:scale-110"
+          >
             ABOUT US
-          </a>
-          <a href="#" className="hover:text-gray-700">
-            LET'S MOVE
-          </a>
-          <a href="#" className="hover:text-gray-700">
+          </Link>
+          <Link
+            to="callorvisit"
+            smooth={true}
+            className="hover:text-gray-700 transition-transform duration-300 hover:scale-110"
+          >
             CONTACT US
-          </a>
+          </Link>
         </div>
       </div>
 

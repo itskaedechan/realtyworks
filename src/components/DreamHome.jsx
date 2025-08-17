@@ -29,7 +29,7 @@ export default function DreamHome() {
   const baths = ["Any Number", "1+", "2+", "3+", "4+", "5+", "6+"];
 
   return (
-    <div className="relative py-16 w-full items-stretch">
+    <div id="listings" className="relative py-16 w-full items-stretch">
       <img
         src="/assets/section-banner.webp"
         alt="Banner"
