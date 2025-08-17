@@ -52,9 +52,10 @@
         plugins: [require("@tailwindcss/aspect-ratio")],
         };
 
-#To install react-scroll for smooth navigation
+#To install react-scroll for smooth navigation and framer-motion for animation
 
 1.  npm install react-scroll
+2.  npm install framer-motion
 
     Recommended VSCode Extensions:
 
