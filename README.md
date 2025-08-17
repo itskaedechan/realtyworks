@@ -76,6 +76,7 @@
    - Converted single-column layout into a two-column design
    - Enlarged name for emphasis and made tagline slightly smaller for visual hierarchy.
    - Added blurred company logo over black background for subtle branding.
+   - added more info about the owner
 
 3. Overview Section
 
