@@ -52,10 +52,15 @@
         plugins: [require("@tailwindcss/aspect-ratio")],
         };
 
-       Recommended VSCode Extensions:
-        - PostCSS Language Support - for Tailwind.
-        - Prettier - for code formatting
-        - ES7+ React/Redux/React-Native snippets - for React Shortcuts.
+#To install react-scroll for smooth navigation
+
+1.  npm install react-scroll
+
+    Recommended VSCode Extensions:
+
+    - PostCSS Language Support - for Tailwind.
+    - Prettier - for code formatting
+    - ES7+ React/Redux/React-Native snippets - for React Shortcuts.
 
 # Website Redesign Summary - MM Real Estate
 
@@ -106,6 +111,7 @@
    - Removed the toggle button for office hours and retained open daily hours
    - Enlarged the headings and improved spacing between child elements
    - added reusable FloatingInput and FloatingTextArea for send message fields
+   - added additional phone number and email
 
 9. Maps Sections
 
@@ -113,9 +119,14 @@
    - added a heading "Our Location" for clarity and it follows the Call or Visit Section
 
 10. Social Links Section
+
     - Previous social links section from the site were removed. (placed before Call or Visit)
     - Retained the social links for the footer for standardizing footer
     - added toolstips and group-hover (fb, ig, linkedin and yelp)
+
+11. NavBar
+
+- added react-scroll for smooth navigation and anchoring
 
 ## Contact
 

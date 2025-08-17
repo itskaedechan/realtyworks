@@ -30,7 +30,10 @@ export default function CallorVisit() {
         </div>
 
         <div className="flex flex-col font-sanspro text-dark gap-8">
-          <button
+          <a
+            href="https://wa.me/14259412560"
+            target="_blank"
+            rel="noopener noreferrer"
             className=" bg-[#536872] text-[#faf9f6] font-bold font-sanspro 
              py-4 px-8 rounded-full mt-5 shadow-md transition-all transform 
              duration-300 hover:scale-105 hover:shadow-lg hover:bg-[#677987] hover:text-[#faf9f6] gap-3 inline-flex items-center w-fit"
@@ -39,7 +42,7 @@ export default function CallorVisit() {
               <img src="contacts/whatsapp.svg" alt="whatsapp" />
             </span>{" "}
             Message us on WhatsApp
-          </button>
+          </a>
           <div>
             <h2 className="text-3xl mb-1 font-cinzel font-medium">
               Marci Metzger
